@@ -15,3 +15,5 @@ const myPromise = new Promise((resolve, reject) => {
       console.log(error);  // This runs if the promise is rejected
     });
   
+
+    

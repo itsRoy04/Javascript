@@ -17,7 +17,7 @@ function searchQuery(query) {
 }
 
 // Debounced version of the search function
-const debouncedSearch = debounce(searchQuery, 300);
+const debouncedSearch = debounce(searchQuery, 1000);
 
 // Setup for capturing user input in Node.js
 const rl = readline.createInterface({
